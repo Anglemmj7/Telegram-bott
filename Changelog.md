@@ -67,3 +67,12 @@
 4. `getUsername` method from `TelegramLongPollingCommandBot` can be considered `final` and will be so in next major release.
 
 **[[How to update to version 3.0.2|How-To-Update#3.0.2]]**
+
+### <a id="3.1.0"></a>3.1.0 ###
+1. Support for Api Version [3.1](https://core.telegram.org/bots/api-changelog#june-30-2017)
+2. Simplified `DefaultAbsSender`
+3. Added new abstract method `setChatPhoto` to AbsSender.
+4. Added new method `execute` and `executeAsync` that can be used to send any api method that extends `BotApiMethod` class.
+5. Added new constructors to `GetChat`, `GetChatAdministrators`, `GetChatMember`, `GetChatMemberCount`, `KickChatMember`, `LeaveChat` and `UnbanChatMember` with mandatory fields as parameters.
+
+**[[How to update to version 3.1.0|How-To-Update#3.1.0]]**
