@@ -1,5 +1,5 @@
 ### <a id="3.2"></a>3.2 ###
-1. Support for Api Version [3.3](https://core.telegram.org/bots/api-changelog#july-21-2017)
+1. Support for Api Version [3.3](https://core.telegram.org/bots/api-changelog#august-23-2017)
 
 
 ### <a id="3.2"></a>3.2 ###
